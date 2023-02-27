@@ -1,7 +1,7 @@
 from turtle import Turtle
 
 SPEED = 10
-STARTING_POSITION = (0, -250)
+STARTING_POSITION = (0, -270)
 PLAYER_COLOR = "green"
 PLAYER_SHAPE = "turtle"
 
