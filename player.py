@@ -1,8 +1,7 @@
 from turtle import Turtle
 
 SPEED = 10
-STARTING_Y = -200
-TARGET = 280
+STARTING_POSITION = (0, -250)
 PLAYER_COLOR = "green"
 PLAYER_SHAPE = "turtle"
 
@@ -14,7 +13,7 @@ class Player(Turtle):
         self.shape(PLAYER_SHAPE)
         self.penup()
         self.left(90)
-        self.goto(0, STARTING_Y)
+        self.goto(STARTING_POSITION)
 
     def move(self):
-        self.forward(10)
+        self.forward(SPEED)
