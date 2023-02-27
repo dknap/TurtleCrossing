@@ -23,7 +23,7 @@ while game_is_on:                   # game flow loop
     screen.onkey(player.move, "space")
     if player.ycor() > TARGET_Y:
         player.goto(RESET_POSITION)
-        level.update_level()
+        level.update_level()                # go to next level and reset turtle's position to default
     screen.update()
 
 screen.exitonclick()
